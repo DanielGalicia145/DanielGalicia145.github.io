@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="mailton:correo@hotmail.com" method="post">
+        <label for="numus">Ingresa el usuario</label>
+        <input type="text" name="nomus"><br>
+        <label for="contra">contraseña</label>
+        <input type="password" name="contra"><br>
+        <label for="contra">fecha</label>
+        <input type="date" name="fecha"><br>
+        <label for="numero">Numero</label>
+        <input type="number" name="numero"><br>
+        <label for="cel">celular</label>
+        <input type="tel" name="numero"><br>
+        <label for="internet">Uso de internet</label>
+        <label for="casa">casa</label>
+        <input type="checkbox" name="casa">
+        <label for="escuela">escuela</label>
+        <input type="checkbox" name="escuela"><br>
+        <label for="otros">otros</label>
+        <input type="checkbox" name="otros"><br>
+        <label for="sexo">Marque sexo</label>
+        <input type="radio" name="sexo">
+        <label for="Hombre">Hombre</label>
+        <input type="radio" name="sexo" value="Hombre">
+        <label for="mujer">mujer</label>
+        <input type="radio" name="sexo" value="mujer">
+        <label for="no binario">no binario</label>
+        <input type="radio" name="sexo" value="no binario">
+        <label for="color"> color</label>
+        <input type="color"><br>
+        <label for="lista">lista colores</label>
+        <select name="listascolores">
+            <option value="azul">azul</option>
+            <option value="rojo">rojo</option>
+        </select><br>
+        <label for="pais">Pais de origen</label>
+        <input list="" name="pais"
+        <datalist id="paises">
+            <option value="Mexico">
+            <option value="USa">
+        </datalist> 
+        <input type="submit" value="enviar">
+        
+    </form>
+</body>
+</html>
